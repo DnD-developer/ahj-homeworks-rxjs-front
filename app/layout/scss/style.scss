@@ -1,0 +1,11 @@
+@import "./utils/libs";
+@import "./utils/fonts";
+@import "./utils/vars";
+@import "./global/global";
+@import "./global/animation";
+
+//? Components
+@import "../../js/components/polling.scss";
+//? End Components
+
+@import "./global/media";
