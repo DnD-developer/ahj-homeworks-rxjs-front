@@ -13,6 +13,10 @@ export default class Polling {
 		this.parrentDomEl.appendChild(this.pollingListDomEl)
 
 		storePolling(this.createPollingItem.bind(this))
+
+		setInterval(() => {
+			storePolling(this.createPollingItem.bind(this))
+		}, 5000)
 	}
 
 	createPollingItem({ from, subject, received }) {
