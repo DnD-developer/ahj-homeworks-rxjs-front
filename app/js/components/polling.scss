@@ -1,0 +1,28 @@
+.polling-list {
+	max-width: 500px;
+	width: 100%;
+
+	border: 1px solid #000000;
+
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-top: 20px;
+
+		border-top: 1px solid #000000;
+
+		&:first-child {
+			border-top: none;
+		}
+
+		&-text,
+		&-date {
+			padding-left: 5px;
+		}
+	}
+}
